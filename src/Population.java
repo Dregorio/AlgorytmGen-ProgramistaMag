@@ -1,9 +1,6 @@
 import java.util.ArrayList;
 import java.util.Random;
 
-/**
- * Created by damis on 12.04.17.
- */
 public class Population {
     private static final Random R = new Random();
     private ArrayList<Creature> population = new ArrayList<>();

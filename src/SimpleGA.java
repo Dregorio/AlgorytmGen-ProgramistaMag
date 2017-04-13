@@ -3,7 +3,7 @@ public class SimpleGA {
         Population p = new Population(1000);
         for (int i = 0; true; ++i){
             if (i % 10 == 0){
-                System.out.printf(p.toString());
+                System.out.println(p.toString());
             }
             p.live();
             p.reproduce();
@@ -12,6 +12,6 @@ public class SimpleGA {
             }
         }
         p.live();
-        System.out.printf(p.toString());
+        System.out.println(p.toString());
     }
 }
