@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 public class Population {
@@ -17,6 +18,7 @@ public class Population {
             c.live();
         }
         population.sort(null);
+        Collections.reverse(population);
         counter++;
     }
 
